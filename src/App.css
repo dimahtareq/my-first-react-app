@@ -1,0 +1,32 @@
+.cards-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.profile-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  background-color: #f9f9f9d8;
+  
+}
+.profile-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+h4{ 
+    margin: 0;
+    font-size: 1.5em;
+    color: rgb(113, 4, 4);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 5;
+    padding: 5;
+    color:rgb(240, 132, 132);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
